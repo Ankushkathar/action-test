@@ -1,0 +1,13 @@
+name: test work
+
+on:
+  push:
+
+jobs:
+  test-job:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: test msg
+        run: echo "test kucl 2.4 class"
+
